@@ -1,0 +1,245 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.blink-it-navbar {
+    top: 0px;
+    z-index: 1000;
+    height: 86px;
+    position: sticky;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.logo {
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 86px;
+    width: 178px;
+    display: flex;
+    border-right: 1px solid rgb(238, 238, 238);
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86px;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: flex-start;
+    height: 86px;
+}
+
+.location>h5 {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.search-bar {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 10px;
+    height: 50px;
+    width: 50vw;
+    margin: 0px;
+}
+
+.search-bar>input {
+    border: none;
+    background-color: transparent;
+    width: 95%;
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+
+.search-bar>input:focus {
+    outline: none;
+}
+
+.my-cart-btn {
+    background-color: #0C831F;
+    color: white;
+    font-size: 14px;
+    width: 112px;
+    height: 52px;
+}
+
+.scrollable-div-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    overflow-x: auto;
+    margin-inline: auto;
+}
+
+.list-of-div {
+    white-space: nowrap;
+    margin-inline: auto;
+    width: 100%;
+}
+
+.list-of-div>div {
+    display: inline-block;
+    margin: 10px;
+}
+
+::-webkit-scrollbar {
+    display: block;
+}
+
+.my-categories {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85vw;
+    flex-direction: row;
+    margin-inline: auto;
+}
+
+.Scrollable-div-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    overflow-x: auto;
+    margin-inline: auto;
+}
+
+.list-of-div-2 {
+    white-space: nowrap;
+    margin-inline: auto;
+    width: 100%;
+}
+
+.list-of-div-2>div {
+    display: inline-block;
+
+}
+
+.card {
+    max-width: 100%;
+padding: 0px;
+width: auto;
+height: auto;
+}
+
+.card-text {
+    color: #rgb(158, 158, 158);
+}
+
+.btn-card {
+    background-color: transparent;
+    color: green;
+    font-weight: 600;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 75px;
+}
+
+.btn-card:hover {
+    background-color: transparent;
+    color: green;
+}
+
+.my-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin-inline: 30px;
+    margin-top: 20px;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.table-1 {
+    color: rgb(130, 130, 130);
+    width: 25vw;
+    border-spacing: auto;
+    height: max-content;
+}
+
+.table-heading {
+    font-size: large;
+    color: black;
+    font-weight: 700;
+}
+
+td {
+    padding-bottom: 5px;
+    width: auto;
+}
+
+th {
+    padding-bottom: 15px;
+    color: #000000;
+}
+
+.table-2-heading {
+    padding-bottom: 25px;
+}
+
+.table-2 {
+    color: rgb(130, 130, 130);
+    width: 60vw;
+    border-spacing: 30px;
+}
+
+.row-2 {
+    width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.part-1 {
+    width: 25vw;
+}
+
+.part-1>p {
+    font-size: smaller;
+
+}
+
+.part-2 {
+    width: 25vw;
+}
+
+
+.part-2>button {
+    background-color: #213B50;
+    color: white;
+
+}
+
+.part-2>button:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.part-3 {
+    width: auto;
+}
+
+.row-3 {
+    background-color: white;
+    margin-inline: 100px;
+
+}
